@@ -4,9 +4,6 @@
 
 from setuptools import setup, find_packages
 
-with open('README.md') as readme_file:
-    readme = readme_file.read()
-
 requirements = []
 test_requirements = []
 
@@ -27,7 +24,6 @@ setup(
     description="A small tool that allows solving Soduko via backtracking algorithm.",
     install_requires=requirements,
     license="MIT license",
-    long_description=readme,
     include_package_data=True,
     keywords='sudoku_solver',
     name='sudoku_solver',
