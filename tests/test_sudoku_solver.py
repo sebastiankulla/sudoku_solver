@@ -1,4 +1,4 @@
-from sudokusolver import Sudoku, solve_sudoku, SudokuNotValidError
+from sudoku_solver import Sudoku, solve_sudoku, SudokuNotValidError
 from unittest import TestCase
 
 
